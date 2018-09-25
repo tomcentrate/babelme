@@ -1,0 +1,22 @@
+{
+  "name": "babelme",
+  "version": "1.0.0",
+  "description": "Basic Babel and Grunt to transform my ES6+ to Basic ES5 Compliance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

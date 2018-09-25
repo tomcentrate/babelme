@@ -1,0 +1,16 @@
+# Basic ES5+ Babel Translator.
+
+This takes in all the js that sits in the `src` folder, and translates it to ES5 supported syntaxes.
+
+it will compile it all down to a single JS file called `all.js` that is in the `dist` folder.
+
+## Usage
+
+1. Add all the JS files you want to the `src` folder.
+2. Run `gulp`
+
+# Installation.
+
+1. `npm install`
+
+2. `gulp`
